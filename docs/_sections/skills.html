@@ -1,0 +1,70 @@
+---
+title: Skills
+icon: fa-th
+order: 4
+---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+<div class="container">
+    <div class="features-block">
+        <div class="wow zoomIn col-lg-6 col-lg-offset-3" >
+            <canvas id="{{ site.skills_id }}" height="500" width="500" style="max-height:500px;max-width:500px;display:inline-block"></canvas>
+        </div>
+        <div class="col-lg-1"></div>
+        <script>
+        var ctx = document.getElementById("{{ site.skills_id }}");
+        var data = {
+            labels: "{{ site.skills_aspects }}".split(","),
+            datasets: [{
+                label: "{{ site.skills_label }}",
+                backgroundColor: "rgba(179,181,198,0.2)",
+                borderColor: "#3385FF",
+                pointBackgroundColor: "#3385FF",
+                pointBorderColor: "#fff",
+                pointHoverBackgroundColor: "#3385FF",
+                pointHoverBorderColor: "#3385FF",
+                data: [{{ site.skills_percentage }}]
+                }]
+        };
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: data,
+            options: {
+                scale: {
+                    responsive: true,
+                    ticks: {min: 0, max: 100},
+                    lineArc: false,
+                    pointLabels: {fontSize: 24},
+                },
+                legend: {display: false},
+            }
+        });
+        </script>
+    </div>
+
+    <header>
+    <h2>Certifications</h2>
+    </header>
+    
+  <div class="row">
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="#" class="image fit"><img src="/assets/images/cka.jpg" alt="Certified Kubernetes Administrator"></a>
+        <header>
+          <h3>Certified Kubernetes Administrator</h3>
+        </header>
+      </div>
+    </div>
+  
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="#" class="image fit"><img src="/assets/images/rhcsa.jpg" alt="RedHat Certified System Administrator"></a>
+        <header>
+          <h3>RedHat Certified System Administrator</h3>
+        </header>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+    </div>
+  </div>
+
+</div>

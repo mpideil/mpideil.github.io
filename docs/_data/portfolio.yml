@@ -1,0 +1,109 @@
+- name: Captive portal
+  layout: default
+  modal-id: 1
+  date: XXXX-XX-XX
+  img: captive_portal-500x313.png
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstr11ap
+  category: Web Devel11opment
+  description: Captive portal project in a box using free softwares PacketFence and CoovaChilli with admin panel for payments and accesss managementre
+
+- name: Secured wifi
+  layout: default
+  modal-id: 2
+  date: XXXX-XX-XX
+  img: wifi-600x281.jpg
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: Evolution of an open wifi network to a secured one using Radius. Multiple source of access- employees credentials / temporary tickets / national research network. Extend to wired network studied to. PVLAN also
+
+- name: Debian packaging
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: debian-336×252.png
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: node libraries packaged into Debian Jessie Debian Community
+
+- name: Kubernetes management
+  layout: default
+  modal-id: 3
+  date: XXXX-XX-XX
+  img: kubernetes-745x272.jpg
+  alt: image-alt
+  project-date: April 2015
+  client: Start Bootstrap
+  category: Web Development
+  description: Kubernetes clusters on AWS and GCP managament and build tools around
+
+- name: Logs gathering automation
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: elk_kube-500x250.png
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: elk kibana filebeat puppet
+
+- name: Move to cloud
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: cloud-migration-500x358.jpg
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: 20+ migration projects from internal DCs to VMs or mutualized kubernetes with automatized pipelines
+
+- name: vCenter and tools industrialization
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: vmware-logo-500x281.png
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: Vrops NSX vcum vcenter test/hardenning/industrialize
+
+- name: devOps
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: devops-586×316.png
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: Jnkins/Rundeck/xxx pipelines
+
+- name: Virtualized Secured Storage platform
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: tumblr_1280.gif
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description: Design/Test/Doc Virtualized Secured Storage platform RHEL/KVM/LVM/Samba/postgreSQL/backups
+
+- name: 
+  layout: default
+  modal-id: 4
+  date: XXXX-XX-XX
+  img: 
+  alt: image-alt
+  project-date: April XXXX
+  client: Start Bootstrap
+  category: Web Development
+  description:
